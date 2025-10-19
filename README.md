@@ -3,7 +3,7 @@
 A simple, powerful, and standalone Python script to upload files or entire folders to Telegram chats, groups, or topics.  
 All functionality is packed into a single file with no external dependencies beyond required Python libraries.
 
-This script is an enhanced and streamlined version of the uploader feature from the WZML‑X project.
+This script is an enhanced and streamlined version of the uploader feature from the [WZML‑X](https://github.com/SilentDemonSD/WZML-X) project.
 
 ---
 
