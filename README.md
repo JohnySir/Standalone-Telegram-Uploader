@@ -77,17 +77,17 @@ python your_script_name.py -p "path/to/file_or_folder" -c CHAT_ID [options]
 
 ---
 
-### Required Arguments
+### Command-line Arguments
 
-- `-p`, `--path` — Path to the file or folder to upload (use quotes).
-- `-c`, `--chat-id` — ID of the target Telegram chat (e.g., `-100123456789`).
-
-### Optional Arguments
-
-- `-t`, `--topic-id` — ID of the topic/thread for sending files.
-- `-r`, `--reply-id` — Message ID to reply to.
-- `-d`, `--as-document` — Force all uploads as documents (no compression).
-- `--thumb` — Path to a custom thumbnail image (e.g., `"path/to/thumb.jpg"`).
+| Short | Long          | Required? | Description                                                                                              |
+|------:|---------------|-----------|----------------------------------------------------------------------------------------------------------|
+| -p    | --path        | Yes       | The full path to the file or folder you want to upload.                                                  |
+| -c    | --chat-id     | Yes       | The ID of the target Telegram chat, group, or channel (e.g., -100123456789 or 123456789).                |
+| -t    | --topic-id    | No        | The ID of the topic/thread within a group to send files to.                                              |
+| -r    | --reply-id    | No        | The ID of the message you want to reply to.                                                              |
+| -d    | --as-document | No        | A flag to force all files to be uploaded as uncompressed documents.                                      |
+|       | --thumb       | No        | The path to a custom thumbnail image file you want to use for the upload (e.g., "C:\images\cover.jpg"). |
+| -h    | --help        | No        | Shows a help message with all available arguments and exits.                                             |
 
 ---
 
